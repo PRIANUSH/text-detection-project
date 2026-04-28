@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(background2.webp) no-repeat;
+}
+
+/* Main Card */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.card {
+    background: purple;
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rebeccapurple;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    margin-bottom: 20px;
+}
+
+.logo-icon {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 22px;
+    color: white;
+}
+
+/* Drag Drop Area */
+.drag-drop-area {
+    border: 2px dashed #4facfe;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drag-drop-area:hover {
+    background: #f0f8ff;
+}
+
+/* Buttons */
+.buttons {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #4facfe;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Action Buttons Row */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Individual Button Colors */
+.copy {
+    background: pink;
+    color: black;
+}
+
+.listen {
+    background: black;
+}
+
+.stop {
+    background: red;
+}
+
+/* Hover Effects */
+.copy:hover {
+    background: #e0a800;
+}
+
+.stop:hover {
+    background: #c82333;
+}
+
+.btn:hover {
+    background:url(background2.webp) no repeat;
+}
+
+/* Special Buttons */
+button[onclick] {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Extracted Text Box */
+.extracted-text-area {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-height: 80px;
+    background: #f9f9f9;
+    text-align: left;
+    font-size: 14px;
+    overflow-y: auto;
+}
